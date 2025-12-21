@@ -1,11 +1,10 @@
-# AL/Business Central Development Guidelines
+# AL/Business Central Copilott Guidelines
 
 ## Workflow Purpose
 
-Development provides fundamental AL language guidance and object development patterns for Microsoft Dynamics 365 Business Central. This workflow covers :
-- `../AppSourcePublishing/` compliance requirements, validation processes, publishing standards, and quality assurance patterns that ensure successful marketplace approval and publication
-- `../CoreDevelopment/` the essential building blocks of AL development, from basic language constructs to advanced object implementation patterns.
-- `../IntegrationDeployment/` API integrations, accessibility standards, and deployment patterns that ensure robust, compliant AL applications.
-- `../PerformanceOptimization/` database optimization, query efficiency, memory management, and AL-specific performance patterns that ensure optimal user experience.
-- `../SharedGuidelines/` consistency, maintainability, and GitHub Copilot effectiveness throughout the entire development process.
-- `../TestingValidation/` code quality, reliability, and compliance through systematic testing and validation approaches.
+Copilot Guidelines workflow provides comprehensive guidance for preparing AL development and documentations (technical and end user oriendted) for Microsoft 365 Business central AL extensions. This workflow covers compliance requirements, validation processes, development and quality assurance patterns that ensure successful Creation and maintenance of Al extensions.
+
+
+**Workflow Navigation**
+* Development and technical documentation | [➡️  TestingValidation](../Development/) 
+* End user documentation| [➡️  End user documentationn](../Documentation/) 
