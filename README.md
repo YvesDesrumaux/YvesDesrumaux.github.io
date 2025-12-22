@@ -1,4 +1,4 @@
-# AL/Business Central Copilott Guidelines
+# AL/Business Central Copilot Guidelines
 
 ## Workflow Purpose
 
@@ -8,3 +8,4 @@ Copilot Guidelines workflow provides comprehensive guidance for preparing AL dev
 **Workflow Navigation**
 * Development and technical documentation | [➡️  Development and technical documentation](../Development/) 
 * End user documentation| [➡️  End user documentationn](../Documentation/) 
+
