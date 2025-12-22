@@ -22,16 +22,16 @@ This comprehensive guide outlines requirements, processes, and best practices fo
     "help": "https://yourcompany.com/help",
     "url": "https://yourcompany.com",
     "logo": "app-logo.png",
-    "dependencies": [
-        {
-            "id": "63ca2fa4-4f03-4f2b-a480-172fef340d3f",
-            "publisher": "Microsoft",
-            "name": "System Application",
-            "version": "26.0.0.0"
-        }
-    ],
     "application": "26.0.0.0",
-    "platform": "26.0.0.0"
+    "platform": "26.0.0.0",
+    "features": [
+        "TranslationFile",
+        "GenerateCaptions",
+        "NoImplicitWith",
+        "NoPromotedActionProperties"
+    ],
+    "applicationInsightsConnectionString": "Connection String Here",
+    "keyVaultUrls": [ "https://yourkeyvault.vault.azure.net/"]
 }
 ```
 

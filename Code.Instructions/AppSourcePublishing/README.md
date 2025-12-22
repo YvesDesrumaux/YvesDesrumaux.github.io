@@ -49,31 +49,31 @@ This workflow addresses the following AL development areas:
 ### Workflow Dependencies
 
 #### Incoming Dependencies
-- **CoreDevelopment**: Provides foundation code quality that meets AppSource standards
+- [Core Development](../CoreDevelopment/): Provides foundation code quality that meets AppSource standards
   - Well-structured objects and business logic demonstrate professional development practices
   - Standard coding patterns align with AppSource technical requirements and quality expectations
   - Proper object design supports marketplace compliance and user experience standards
   - Quality development practices provide foundation for AppSource submission success
 
-- **TestingValidation**: Provides comprehensive testing required for marketplace approval
+- [TestingValidation](../TestingValidation/): Provides comprehensive testing required for marketplace approval
   - Thorough test coverage demonstrates application reliability and quality assurance
   - Quality validation results support AppSource technical review and approval process
   - Test documentation provides evidence of comprehensive validation and quality control
   - Validation processes ensure compliance with AppSource testing and quality requirements
 
-- **PerformanceOptimization**: Provides performance benchmarks required for marketplace
+- [Performance Optimization](../PerformanceOptimization/): Provides performance benchmarks required for marketplace
   - Optimized performance meets AppSource technical standards and user experience requirements
   - Performance documentation demonstrates scalability and efficiency for marketplace evaluation
   - Optimization work ensures applications meet marketplace performance benchmarks
   - Performance testing results support AppSource submission and technical validation
 
-- **IntegrationDeployment**: Provides accessibility and integration compliance for marketplace
+- [Integration Deployment](../IntegrationDeployment/): Provides accessibility and integration compliance for marketplace
   - Accessibility standards implementation ensures AppSource compliance requirements
   - Integration patterns demonstrate proper external system connectivity and API usage
   - Deployment readiness supports AppSource installation and configuration requirements
   - Integration testing validates marketplace-ready functionality and compatibility
 
-- **SharedGuidelines**: All shared standards apply with enhanced rigor for marketplace
+- [Shared Guidelines](../SharedGuidelines/): All shared standards apply with enhanced rigor for marketplace
   - Core principles guide AppSource submission strategy and quality objectives
   - Naming conventions ensure marketplace-appropriate object and component naming
   - Code style standards support professional presentation and maintainability
@@ -102,9 +102,9 @@ This workflow addresses the following AL development areas:
 ### AppSource-Specific Integration Requirements
 
 #### Code Quality Integration
-- **CoreDevelopment Standards**: Enhanced code quality standards specific to marketplace submission
-- **TestingValidation Rigor**: Comprehensive testing with documented results and coverage metrics
-- **PerformanceOptimization Benchmarks**: Performance standards that exceed basic functionality requirements
+- **Core Development Standards**: Enhanced code quality standards specific to marketplace submission
+- **Testing Validation Rigor**: Comprehensive testing with documented results and coverage metrics
+- **Performance Optimization Benchmarks**: Performance standards that exceed basic functionality requirements
 - **Integration Compliance**: Accessibility and integration standards that support diverse user scenarios
 
 #### Documentation Integration
@@ -126,12 +126,12 @@ This workflow addresses the following AL development areas:
 - **Performance Excellence**: Performance standards that support commercial application success
 
 ### Cross-References
-- See `SharedGuidelines/Standards/` for: Enhanced standards application for marketplace compliance
-- See `SharedGuidelines/Configuration/` for: Core principles supporting AppSource submission success
-- Reference `CoreDevelopment/` for: Foundation code quality meeting AppSource standards
-- Reference `TestingValidation/` for: Comprehensive testing required for marketplace approval
-- Reference `PerformanceOptimization/` for: Performance requirements and validation for AppSource
-- Reference `IntegrationDeployment/` for: Accessibility and integration compliance for marketplace
+- See [Shared Guidelines Standards](../SharedGuidelines/Standards/) for: Enhanced standards application for marketplace compliance
+- See [Shared Guidelines Configuration](../SharedGuidelines/Configuration/) for: Core principles supporting AppSource submission success
+- Reference [Core Development](../CoreDevelopment/) for: Foundation code quality meeting AppSource standards
+- Reference [Testing Validation](../TestingValidation/) for: Comprehensive testing required for marketplace approval
+- Reference [Performance Optimization](../PerformanceOptimization/) for: Performance requirements and validation for AppSource
+- Reference [Integration Deployment](../IntegrationDeployment/) for: Accessibility and integration compliance for marketplace
 
 ## Quick Reference
 
