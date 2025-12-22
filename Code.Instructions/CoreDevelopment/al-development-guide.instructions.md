@@ -581,7 +581,6 @@ if Customer.FindSet() then
 **Integration**: Event-based programming, web services, APIs, external system connectivity
 
 ## Cross-References
-
 ### Related SharedGuidelines
 - [Naming Conventions](../SharedGuidelines/Standards/naming-conventions.instructions.md) - Object and variable naming rules
 - [Code Style](../SharedGuidelines/Standards/code-style.instructions.md) - Formatting and style standards  
