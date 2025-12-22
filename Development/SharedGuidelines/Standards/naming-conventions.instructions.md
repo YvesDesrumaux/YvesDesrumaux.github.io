@@ -149,8 +149,17 @@ CustomerOld: Record Customer;
 5. The prefix is always just once in the object name
 6. The prefix is always in the beginning of the object name
 
-## object file name
-- File Name Pattern: "<Object Name without spaces and prefix>.<Object Type in Pascal Case>.al"
+## Object file names
+these rules have a high priority when naming the AL object files:
+1. The file name must start with the Object Name without spaces and prefix
+2. The file name must end with the Object Type in Pascal Case
+3. There must be a dot (.) between the Object Name without spaces and prefix and the Object Type in Pascal Case
+4. The file name must have the extension .al
+**Examples**
+- CustomerList.PageExt.al
+- SalesHeader.TableExt.al
+- InventoryAdjustment.Codeunit.al
+- NewTable.Table.al
 
 ## Search Keywords
 
