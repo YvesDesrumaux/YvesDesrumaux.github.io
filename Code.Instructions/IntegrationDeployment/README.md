@@ -15,7 +15,7 @@ This workflow addresses the following AL development areas:
 
 ## Included Guidelines
 
-### integration-patterns.md
+### [Integration Patterns)(.\integration-patterns.md)
 **Purpose**: Comprehensive patterns for integrating AL applications with external systems and Business Central components
 **When to use**: When developing APIs, web services, external system connections, or internal Business Central integrations
 **Key topics**:
@@ -25,7 +25,7 @@ This workflow addresses the following AL development areas:
 - External system integration with proper authentication
 - Integration security best practices
 
-### accessibility-standards.md
+### [Accessibility Standards](./accessibility-standards.md)
 **Purpose**: Procedure accessibility standards for AL development to ensure testability and proper encapsulation
 **When to use**: When designing AL procedures and codeunit structure for maintainable, testable code
 **Key topics**:
@@ -155,3 +155,7 @@ This workflow addresses the following AL development areas:
 - **→ Next**: [PerformanceOptimization](../PerformanceOptimization/README.md)
 - **↑ Back to**: [Repository Overview](../README.md)
 - **⚙️ Shared**: [SharedGuidelines](../SharedGuidelines/README.md)
+
+---
+
+[🏠 Home](../README.md) | [AppSource Publishing](../AppSourcePublishing/) | [Integration Deployment](../IntegrationDeployment/) | [Testing Validation](../TestingValidation/)

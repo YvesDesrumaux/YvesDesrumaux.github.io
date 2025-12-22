@@ -112,15 +112,15 @@ This document outlines the basic coding standards, patterns, and style guideline
 ## Cross-References
 
 ### Related SharedGuidelines
-- **Naming Conventions**: `SharedGuidelines/Standards/naming-conventions.md` - Detailed naming rules and patterns
-- **Code Style**: `SharedGuidelines/Standards/code-style.md` - Comprehensive formatting guidelines
-- **Error Handling**: `SharedGuidelines/Standards/error-handling.md` - Text constant and error message patterns
+- [Naming Conventions](../SharedGuidelines/Standards/naming-conventions.instructions.md) - Detailed naming rules and patterns
+- [Code Style](../SharedGuidelines/Standards/code-style.instructions.md) - Comprehensive formatting guidelines
+- [Error Handling](../SharedGuidelines/Standards/error-handling.instructions.md) - Text constant and error message patterns
 
 ### Related CoreDevelopment Files
-- **AL Development Guide**: `CoreDevelopment/al-development-guide.md` - Comprehensive development standards
-- **Object Patterns**: `CoreDevelopment/object-patterns.md` - Specific object creation patterns
+- [AL Development Guide](../CoreDevelopment/al-development-guide.instructions.md) - Comprehensive development standards
+- [Object Patterns](../CoreDevelopment/object-patterns.instructions.md) - Specific object creation patterns
 
 ### Workflow Applications
-- **TestingValidation**: Apply coding standards to test code development
-- **PerformanceOptimization**: Maintain standards while implementing optimizations
-- **AppSourcePublishing**: Ensure standards compliance for marketplace requirements
+- [Testing Validation](../TestingValidation/testing-strategy.instructions.md) - Apply coding standards to test code development
+- [Performance Optimization](../PerformanceOptimization/optimization-guide.instructions.md) - Maintain standards while implementing optimizations
+- [AppSource Publishing](../AppSourcePublishing/appsource-requirements.instructions.md) - Ensure standards compliance for marketplace requirements

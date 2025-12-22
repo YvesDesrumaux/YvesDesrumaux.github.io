@@ -238,17 +238,12 @@ query 50100 "Customer Rating Analysis"
     {
         dataitem(Customer; Customer)
         {
-            filter(CustomerNoFilter; "No.")
-            { }
-            filter(CategoryFilter; "ABC Customer Category")
-            { }
+            filter(CustomerNoFilter; "No.") { }
+            filter(CategoryFilter; "ABC Customer Category") { }
             
-            column(CustomerNo; "No.")
-            { }
-            column(CustomerName; Name)
-            { }
-            column(CustomerCategory; "ABC Customer Category")
-            { }
+            column(CustomerNo; "No.") { }
+            column(CustomerName; Name) { }
+            column(CustomerCategory; "ABC Customer Category") { }
             
             dataitem(CustomerRating; "ABC Customer Rating")
             {

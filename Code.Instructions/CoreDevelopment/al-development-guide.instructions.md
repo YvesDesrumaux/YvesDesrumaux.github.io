@@ -583,16 +583,16 @@ if Customer.FindSet() then
 ## Cross-References
 
 ### Related SharedGuidelines
-- **Naming Conventions**: `SharedGuidelines/Standards/naming-conventions.md` - Object and variable naming rules
-- **Code Style**: `SharedGuidelines/Standards/code-style.md` - Formatting and style standards  
-- **Error Handling**: `SharedGuidelines/Standards/error-handling.md` - Error handling best practices
-- **Core Principles**: `SharedGuidelines/Configuration/core-principles.md` - Development foundation
+- [Naming Conventions](../SharedGuidelines/Standards/naming-conventions.instructions.md) - Object and variable naming rules
+- [Code Style](../SharedGuidelines/Standards/code-style.instructions.md) - Formatting and style standards  
+- [Error Handling](../SharedGuidelines/Standards/error-handling.instructions.md) - Error handling best practices
+- [Core Principles](../SharedGuidelines/Configuration/core-principles.instructions.md) - Development foundation
 
 ### Related CoreDevelopment Files
-- **Coding Standards**: `CoreDevelopment/coding-standards.md` - Basic coding patterns and standards
-- **Object Patterns**: `CoreDevelopment/object-patterns.md` - Specific object creation patterns
+- [Coding Standards](../CoreDevelopment/coding-standards.instructions.md) - Basic coding patterns and standards
+- [Object Patterns](../CoreDevelopment/object-patterns.instructions.md) - Specific object creation patterns
 
 ### Workflow Transitions
-- **From**: `SharedGuidelines/Configuration/core-principles.md` - Apply foundational principles
-- **To**: `TestingValidation/testing-strategy.md` - Validate development with comprehensive testing
-- **To**: `PerformanceOptimization/optimization-guide.md` - Optimize developed solutions
+- [From](../SharedGuidelines/Configuration/core-principles.instructions.md) - Apply foundational principles
+- [To](../TestingValidation/testing-strategy.instructions.md) - Validate development with comprehensive testing
+- [To](../PerformanceOptimization/optimization-guide.instructions.md) - Optimize developed solutions

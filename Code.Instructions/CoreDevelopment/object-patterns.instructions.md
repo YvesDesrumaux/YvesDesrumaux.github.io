@@ -1342,15 +1342,15 @@ report 50101 "ABC Update Customer Categories"
 ## Cross-References
 
 ### Related SharedGuidelines
-- **Naming Conventions**: `SharedGuidelines/Standards/naming-conventions.md` - Object and field naming patterns
-- **Code Style**: `SharedGuidelines/Standards/code-style.md` - Formatting and tooltip standards
-- **Error Handling**: `SharedGuidelines/Standards/error-handling.md` - Validation and error patterns
+- [Naming Conventions](../SharedGuidelines/Standards/naming-conventions.instructions.md) - Object and field naming patterns
+- [Code Style](../SharedGuidelines/Standards/code-style.instructions.md) - Formatting and tooltip standards
+- [Error Handling](../SharedGuidelines/Standards/error-handling.instructions.md) - Validation and error patterns
 
 ### Related CoreDevelopment Files
-- **AL Development Guide**: `CoreDevelopment/al-development-guide.md` - General development principles
-- **Coding Standards**: `CoreDevelopment/coding-standards.md` - Basic coding patterns and numbering
+- [AL Development Guide](../CoreDevelopment/al-development-guide.instructions.md) - General development principles
+- [Coding Standards](../CoreDevelopment/coding-standards.instructions.md) - Basic coding patterns and numbering
 
 ### Workflow Applications
-- **TestingValidation**: Object-specific testing patterns and validation approaches
-- **PerformanceOptimization**: Object design considerations for optimal performance
-- **AppSourcePublishing**: Object pattern compliance for marketplace requirements
+- [Testing Validation](../TestingValidation/testing-strategy.instructions.md) - Object-specific testing patterns and validation approaches
+- [Performance Optimization](../PerformanceOptimization/optimization-guide.instructions.md) - Object design considerations for optimal performance
+- [AppSource Publishing](../AppSourcePublishing/appsource-requirements.instructions.md) - Object pattern compliance for marketplace requirements
