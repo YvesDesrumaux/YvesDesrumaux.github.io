@@ -49,6 +49,7 @@ This comprehensive guide outlines requirements, processes, and best practices fo
    - Use proper version ranges for dependencies (avoid wildcards)
    - Minimize dependencies when possible to reduce conflicts
    - Test compatibility with all supported versions of dependencies
+   - Never use dependencies on "System Application" and "Base Application"
    - Document any third-party library dependencies
 
 ## AppSource Publishing Workflow
@@ -107,7 +108,7 @@ This comprehensive guide outlines requirements, processes, and best practices fo
 procedure CalculateCreditLimit(CustomerNo: Code[20]; AssessmentPeriod: DateFormula): Decimal
 ```
 
-- XML documentation comments for all public methods
+- XML documentation comments for all public methods and integration events
 - Clear descriptions of object purpose and business value
 - Complete parameter documentation with types and constraints
 - Return value documentation with expected formats
