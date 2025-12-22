@@ -566,6 +566,17 @@ codeunit 50202 "ABC Customer Rating API Mgt"
     end;
 }
 
+## Interfaces 
+
+1. Use standard Business Central interfaces to avoid long case statements
+2. Implement interfaces for common behaviors across multiple objects
+3. Follow interface naming conventions
+4. Document interface usage clearly
+5. Ensure interface methods are concise and focused
+6. Encapsulate business logic within interface implementations
+7. Leverage interfaces for extensibility and future enhancements
+8. Use interfaces to enhance testability and mocking in unit tests  
+
 ## External System Integration
 
 1. Use proper authentication mechanisms for external systems
@@ -585,3 +596,4 @@ codeunit 50202 "ABC Customer Rating API Mgt"
 5. Implement proper logging for security events
 6. Follow the principle of least privilege for integration accounts
 7. Regularly review and update integration security measures
+

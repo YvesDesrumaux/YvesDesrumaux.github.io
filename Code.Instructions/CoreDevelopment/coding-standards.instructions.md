@@ -21,6 +21,7 @@ This document outlines the basic coding standards, patterns, and style guideline
 3. Use object IDs in appropriate ranges defined in app.json
 4. Follow Microsoft's official AL style guide
 5. Implement proper indentation and spacing for readability
+6. Empty lines should be used to separate logical code blocks
 
 ## AL Development Patterns
 

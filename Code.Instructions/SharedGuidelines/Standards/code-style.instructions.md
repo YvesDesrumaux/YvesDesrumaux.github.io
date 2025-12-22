@@ -167,7 +167,7 @@ This document outlines the coding standards and best practices for AL code in th
        Statement3;
    ```
 
-6. **CASE Statement**: Use CASE instead of nested IF-THEN-ELSE when comparing the same variable against multiple values. When posible use interfaces statements to reduce the number of case options.
+6. **CASE Statement**: Use CASE instead of nested IF-THEN-ELSE when comparing the same variable against multiple values.
    ```al
    // Instead of this:
    if Type = Type::Item then

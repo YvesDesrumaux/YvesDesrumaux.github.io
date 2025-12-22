@@ -40,7 +40,7 @@ Before completing any code changes, always check for and fix linter errors in th
    - Ensure proper use of BEGIN..END blocks
    - Make sure 'if' keywords start on a new line
    - Use "this" qualification for object properties
-   - Use text constants for string formatting
+   - Use labels variables for string formatting
 
 4. **Recheck After Fixes**: After making changes, run diagnostics again to ensure all linter errors have been resolved.
 
