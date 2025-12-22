@@ -15,7 +15,7 @@ This workflow addresses the following AL development areas:
 
 ## Included Guidelines
 
-### appsource-requirements.md
+### [AppSource Requirements](./appsource-requirements.instructions.md)
 **Purpose**: Comprehensive AppSource publishing guide with complete workflow, validation patterns, and compliance checklists
 **When to use**: When preparing AL applications for AppSource submission, during compliance validation, or when implementing marketplace requirements
 **Key topics**:
@@ -175,9 +175,6 @@ This workflow addresses the following AL development areas:
 - Pricing strategy and licensing model implementation
 - Support processes and customer communication standards
 
-## Navigation
+---
 
-- **← Previous**: [PerformanceOptimization](../PerformanceOptimization/README.md)
-- **→ Next**: [Final Review](../README.md#final-review-and-validation)
-- **↑ Back to**: [Repository Overview](../README.md)
-- **⚙️ Shared**: [SharedGuidelines](../SharedGuidelines/README.md)
+[🏠 Home](../README.md) | [⚙️ Shared Guidelines](../SharedGuidelines/README.md)

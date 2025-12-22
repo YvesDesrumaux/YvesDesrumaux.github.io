@@ -180,10 +180,10 @@ extension model, object design, AL syntax, development patterns, Business Centra
 - [AL Language Reference](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-al-reference)
 
 ### Internal References
-- `../SharedGuidelines/Standards/` - naming-conventions, code-style, error-handling
-- `../SharedGuidelines/Configuration/` - core-principles, ai-assistant-guidelines
-- `../TestingValidation/` - testing patterns for developed objects
+- `../Shared Guidelines/Standards/` - naming-conventions, code-style, error-handling
+- `../Shared Guidelines/Configuration/` - core-principles, ai-assistant-guidelines
+- `../Testing Validation/` - testing patterns for developed objects
 
 ---
 
-**Workflow Navigation**: CoreDevelopment | [➡️ Next: TestingValidation](../TestingValidation/) | [🏠 Main README](../README.md)
+[🏠 Home](../README.md) | [AppSource Publishing](../AppSourcePublishing/) | [Integration Deployment](../IntegrationDeployment/) | [Testing Validation](../TestingValidation/)
