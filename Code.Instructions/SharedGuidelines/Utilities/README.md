@@ -4,7 +4,7 @@ This folder contains practical, copy-paste ready templates for common AL develop
 
 ## Available Templates
 
-### 1. Table Template (`table-template.al`)
+### 1. [Table Template](./table-template.al)
 Complete table creation template with:
 - ✅ **Proper field structure** with tooltips starting with "Specifies"
 - ✅ **Data classification** set to CustomerContent
@@ -20,7 +20,7 @@ Complete table creation template with:
 3. Customize fields, validation logic, and business rules
 4. Add specific FlowFields and relationships as needed
 
-### 2. Page Templates (`page-template.al`)
+### 2. [Page Templates](./page-template.al)
 Complete page creation templates including:
 
 #### Card Page Template
@@ -44,7 +44,7 @@ Complete page creation templates including:
 3. Customize fields, actions, and business logic
 4. Add specific FactBoxes and related pages
 
-### 3. Codeunit Templates (`codeunit-template.al`)
+### 3. [Codeunit Templates](./codeunit-template.al)
 Two comprehensive codeunit patterns:
 
 #### Management Codeunit (`[Prefix] [EntityName] Mgt`)
@@ -68,7 +68,7 @@ Two comprehensive codeunit patterns:
 3. Implement specific business logic in the marked areas
 4. Add custom validation rules and processing steps
 
-### 4. Test Template (`test-template.al`)
+### 4. [Test Template](./test-template.al)
 Comprehensive test codeunit template with:
 - ✅ **Complete test coverage** for CRUD operations
 - ✅ **Arrange-Act-Assert** pattern for all test methods
@@ -91,14 +91,14 @@ Comprehensive test codeunit template with:
 ### Common Placeholders
 Replace these placeholders throughout the templates:
 
-| Placeholder | Description | Example |
-|-------------|-------------|---------|
-| `[ObjectID]` | Your object ID number | `50100` |
-| `[Prefix]` | Your extension prefix | `ABC` |
-| `[EntityName]` | Your business entity name | `Customer Rating` |
-| `[KeyParameters]` | Method parameters | `CustomerNo: Code[20]; Description: Text[100]` |
-| `[Related Table]` | Related table name | `ABC Customer Rating Detail` |
-| `[Key Field]` | Foreign key field | `Customer Rating No.` |
+| Placeholder       | Description               | Example                                        |
+| ----------------- | ------------------------- | ---------------------------------------------- |
+| `[ObjectID]`      | Your object ID number     | `50100`                                        |
+| `[Prefix]`        | Your extension prefix     | `ABC`                                          |
+| `[EntityName]`    | Your business entity name | `Customer Rating`                              |
+| `[KeyParameters]` | Method parameters         | `CustomerNo: Code[20]; Description: Text[100]` |
+| `[Related Table]` | Related table name        | `ABC Customer Rating Detail`                   |
+| `[Key Field]`     | Foreign key field         | `Customer Rating No.`                          |
 
 ### Example Transformation
 **From Template:**
@@ -133,16 +133,16 @@ These templates leverage the latest AL features including:
 ## Cross-References
 
 ### Related SharedGuidelines
-- **Naming Conventions**: `SharedGuidelines/Standards/naming-conventions.md`
-- **Code Style**: `SharedGuidelines/Standards/code-style.md`
-- **Error Handling**: `SharedGuidelines/Standards/error-handling.md`
-- **Core Principles**: `SharedGuidelines/Configuration/core-principles.md`
+- [Naming Conventions](../../SharedGuidelines/Standards/naming-conventions.instructions.md)
+- [Code Style](../../SharedGuidelines/Standards/code-style.instructions.md)
+- [Error Handling](../../SharedGuidelines/Standards/error-handling.instructions.md)
+- [Core Principles](../../SharedGuidelines/Configuration/core-principles.instructions.md)
 
 ### Related Workflows
-- **CoreDevelopment**: Object patterns and development standards
-- **TestingValidation**: Test data patterns and testing strategies
-- **PerformanceOptimization**: SetLoadFields and optimization patterns
-- **AppSourcePublishing**: Marketplace compliance requirements
+- [Core Development](../../CoreDevelopment/): Object patterns and development standards
+- [Testing Validation](../../TestingValidation/): Test data patterns and testing strategies
+- [Performance Optimization](../../PerformanceOptimization/): SetLoadFields and optimization patterns
+- [AppSource Publishing](../../AppSourcePublishing/): Marketplace compliance requirements
 
 ## Getting Started
 
