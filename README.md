@@ -7,5 +7,5 @@ Copilot Guidelines workflow provides comprehensive guidance for preparing AL dev
 
 **Workflow Navigation**
 * [➡️  Development and technical documentation](../Code.Instructions/) 
-* [➡️  End user documentationn](../Doc.Instructions/) 
+* [➡️  End user documentation](../Doc.Instructions/) 
 
