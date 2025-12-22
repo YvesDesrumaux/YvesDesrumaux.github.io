@@ -149,6 +149,9 @@ CustomerOld: Record Customer;
 5. The prefix is always just once in the object name
 6. The prefix is always in the beginning of the object name
 
+## object file name
+- File Name Pattern: "<Object Name without spaces and prefix>.<Object Type in Pascal Case>.al"
+
 ## Search Keywords
 
 ### AL Language Keywords
