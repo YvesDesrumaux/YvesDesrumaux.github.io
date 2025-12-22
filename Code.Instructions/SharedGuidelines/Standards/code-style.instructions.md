@@ -314,12 +314,20 @@ This document outlines the coding standards and best practices for AL code in th
 - Use descriptive names for text constants that indicate their purpose
 - When using StrSubstNo, always use a text constant or label for the format string
 - Format text constant names as: ErrorMsg, ConfirmQst, InfoMsg, etc.
-- Example:
+- Examples:
   ```al
   var
       TypeMismatchErr: Label 'Field type mismatch: %1 field cannot be mapped to %2 field.';
   begin
       ErrorMessage := StrSubstNo(TypeMismatchErr, Format(CustomFieldType), Format(TargetFieldType));
+  end;
+  ```
+
+  ```al
+  var
+      ExitValueLbl: Label 'Return a human readable value for the exit code of the process.';
+  begin
+      exit(ExitValueLbl);
   end;
   ```
 
@@ -353,7 +361,7 @@ var
 **Performance Patterns**: SetLoadFields, bulk operations, filtering, record processing, optimization
 
 ### Business Central Concepts
-**Object Development**: Page design, field tooltips, user experience, accessibility
+**Object Development**: Page design, table field tooltips, user experience, accessibility
 **Extension Standards**: AL best practices, code quality, maintainability, AppSource compliance
 **Localization**: Text constants, labels, multilingual support, internationalization
 
