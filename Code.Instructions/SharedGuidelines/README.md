@@ -13,45 +13,45 @@ This workflow addresses the following cross-cutting areas:
 
 ## Organization Structure
 
-### Standards/
+### [Standard](./Standards/)
 **Purpose**: Technical development standards that apply across all workflows
 - Naming conventions for all AL objects and elements
 - Code style and formatting guidelines
 - Error handling patterns and best practices
 
-### Configuration/
+### [Configuration](./Configuration/)
 **Purpose**: Core principles and AI assistant configuration
 - Fundamental AL development principles
 - GitHub Copilot configuration and behavior guidelines
 
-### Utilities/
+### [Utilities](./Utilities/)
 **Purpose**: Tools, templates, and automation aids (future expansion)
 - Common templates and patterns
 - Development utilities and helpers
 
 ## Included Guidelines
 
-### [Naming conventions] (..\Standards\naming-conventions.md)
+### [Naming Conventions](.\Standards\naming-conventions.instructions.md)
 **Purpose**: Comprehensive naming rules for all AL objects, variables, and elements
 **When to use**: Naming any AL object, variable, parameter, or code element
 **Key topics**: Object naming, variable naming, parameter conventions, prefix guidelines
 
-### Standards/code-style.md
+### [Code Style](./Standards/code-style.instructions.md)
 **Purpose**: Code formatting, structure, and style guidelines for consistent AL development
 **When to use**: Writing or formatting AL code, establishing team coding standards
 **Key topics**: Indentation, formatting, code structure, style consistency
 
-### Standards/error-handling.md
+### [error-handling](./Standards/error-handling.instructions.md)
 **Purpose**: Error handling patterns and best practices for robust AL applications
 **When to use**: Implementing error handling, exception management, user feedback
 **Key topics**: Error patterns, exception handling, user messaging, actionable errors
 
-### Configuration/core-principles.md
+### [Core principles](./Configuration/core-principles.instructions.md)
 **Purpose**: Fundamental AL development principles that guide all development activities and establish development philosophy
 **When to use**: Understanding development philosophy, making architectural decisions, onboarding new developers
 **Key topics**: Core principles, development philosophy, architectural guidance, Business Central best practices
 
-### Configuration/ai-assistant-guidelines.md
+### [ai assistant guidelines](./Configuration/ai-assistant-guidelines.instructions.md)
 **Purpose**: AI assistant configuration and behavior guidelines for optimal GitHub Copilot assistance in AL development
 **When to use**: Setting up AI assistance, configuring development environment, optimizing AI productivity
 **Key topics**: AI configuration, assistant behavior, code quality standards, implementation guidelines
@@ -59,10 +59,10 @@ This workflow addresses the following cross-cutting areas:
 ## Usage Instructions
 
 ### Getting Started
-1. **Review core principles**: Start with core-principles.md for foundational understanding
-2. **Apply standards consistently**: Use naming-conventions and code-style across all development
-3. **Implement error handling**: Apply error-handling patterns throughout your AL code
-4. **Configure AI assistance**: Use ai-assistant-guidelines for optimal GitHub Copilot integration
+1. **Review core principles**: Start with 'core principles' for foundational understanding
+2. **Apply standards consistently**: Use 'naming conventions' and code-style across all development
+3. **Implement error handling**: Apply 'error handling' patterns throughout your AL code
+4. **Configure AI assistance**: Use 'ai assistant guidelines' for optimal GitHub Copilot integration
 
 ### Cross-Workflow Application
 - **All Workflows**: SharedGuidelines standards apply to every workflow
