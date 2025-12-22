@@ -14,7 +14,7 @@ This workflow addresses the following AL development areas:
 
 ## Included Guidelines
 
-### al-development-guide.md
+###  [al development guide](./al-development-guide.instructions.md)
 **Purpose**: Comprehensive AL language guidance covering development standards and patterns
 **When to use**: Starting new AL development, learning AL best practices, implementing standard development patterns
 **Key topics**: AL syntax, object development, extension model, code organization
