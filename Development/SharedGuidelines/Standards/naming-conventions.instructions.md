@@ -144,11 +144,10 @@ CustomerOld: Record Customer;
 
 1. All objects must have a prefix
 2. The prefix is defined in the AppSourceCop.json file
-3. The prefix is always in this format '<Prefix> ' where <Prefix> is the prefix defined in the AppSourceCop.json file
-4. The prefix is always in uppercase
-5. The prefix is always followed by a space
-6. The prefix is always just once in the object name
-7. The prefix is always in the beginning of the object name
+3. The prefix is always in this format '<Prefix><Separator>' where <Prefix> is the prefix defined in the AppSourceCop.json file and <Separator> is a single character separator (e.g., underscore '_' for Main extension, or equal '=' for test extensions)
+4. The prefix is generally 6 characters and always 3 first characters in lowercase and the next 3 characters in uppercase
+5. The prefix is always just once in the object name
+6. The prefix is always in the beginning of the object name
 
 ## Search Keywords
 
@@ -179,3 +178,4 @@ CustomerOld: Record Customer;
 - **TestingValidation**: Test object and test data naming conventions  
 - **PerformanceOptimization**: Variable naming for optimized code patterns
 - **AppSourcePublishing**: Compliance with AppSource naming requirements
+
