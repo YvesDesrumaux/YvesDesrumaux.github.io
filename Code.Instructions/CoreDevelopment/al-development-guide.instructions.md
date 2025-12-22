@@ -46,12 +46,12 @@ When developing for Business Central, always follow these core principles:
 ## Code Quality and Standards
 
 1. **Always Check for Linter Errors**: Before completing any code changes, check for and fix linter errors in the affected files. Use the diagnostics tool to identify issues and ensure the code follows AL best practices.
-
-2. **Follow AL Code Style Guidelines**: Adhere to the AL code style guidelines specified in the `al_code_style.md` file. This includes proper variable naming, code formatting, object property qualification, and string formatting.
-
+2. **Follow AL Code Style Guidelines**: Adhere to the AL code style guidelines specified in the [al code style](../SharedGuidelines/Standards/code-style.instructions.md) file. This includes proper variable naming, code formatting, object property qualification, and string formatting.
 3. **Maintain Backward Compatibility**: When modifying existing code, ensure backward compatibility unless explicitly instructed otherwise. Preserve method signatures and parameters.
-
 4. **Document Code Changes**: Add appropriate comments to explain complex logic or business rules. Use XML documentation comments for procedures.
+5. **Remove Unused Variables**: Identify and remove any variables that are declared but not used in the code to maintain cleanliness and readability.
+6. **One object by file**: Ensure that each AL object is defined in its own file, following the standard naming conventions for files.
+7. **pagecustomization object**: Never use pagecustomization objects for UI modifications but modify base pages directly. 
 
 ## Project Structure
 

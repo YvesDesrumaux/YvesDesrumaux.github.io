@@ -4,7 +4,7 @@
 
 1. **Always Check for Linter Errors**: Before completing any code changes, check for and fix linter errors in the affected files. Use the diagnostics tool to identify issues and ensure the code follows AL best practices.
 
-2. **Follow AL Code Style Guidelines**: Adhere to the AL code style guidelines specified in the `al_code_style.md` file. This includes proper variable naming, code formatting, object property qualification, and string formatting.
+2. **Follow AL Code Style Guidelines**: Adhere to the AL code style guidelines specified in the [al code style](../Standards/code-style.instructions.md). This includes proper variable naming, code formatting, object property qualification, and string formatting.
 
 3. **Maintain Backward Compatibility**: When modifying existing code, ensure backward compatibility unless explicitly instructed otherwise. Preserve method signatures and parameters.
 
