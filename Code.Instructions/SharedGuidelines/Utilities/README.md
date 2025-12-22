@@ -6,7 +6,7 @@ This folder contains practical, copy-paste ready templates for common AL develop
 
 ### 1. [Table Template](./table-template.al)
 Complete table creation template with:
-- ✅ **Proper field structure** with tooltips starting with "Specifies"
+- ✅ **Proper field structure** with tooltips starting with "Specifies" and ending with "."
 - ✅ **Data classification** set to CustomerContent
 - ✅ **Validation triggers** with business logic patterns
 - ✅ **FlowFields and keys** following performance guidelines
