@@ -373,12 +373,12 @@ var
 ## Cross-References
 
 ### Related SharedGuidelines
-- **Naming Conventions**: `SharedGuidelines/Standards/naming-conventions.md` - Variable and object naming rules
-- **Error Handling**: `SharedGuidelines/Standards/error-handling.md` - Error message formatting and text constants
-- **Core Principles**: `SharedGuidelines/Configuration/core-principles.md` - Development foundation
+- [Naming Conventions](naming-conventions.instructions.md) - Variable and object naming rules
+- [Error Handling](error-handling.instructions.md) - Error message formatting and text constants
+- [Core Principles](../Configuration/core-principles.instructions.md) - Development foundation
 
 ### Workflow Applications
-- **CoreDevelopment**: Implementation of style guidelines in object creation
-- **TestingValidation**: Style standards for test code and validation procedures
-- **PerformanceOptimization**: Performance-focused coding patterns and optimizations
-- **AppSourcePublishing**: Code style compliance for marketplace requirements
+- [Core Development](../../CoreDevelopment/) - Implementation of style guidelines in object creation
+- [Testing and Validation](../../TestingValidation/) - Style standards for test code and validation procedures
+- [Performance Optimization](../../PerformanceOptimization/) - Performance-focused coding patterns and optimizations
+- [AppSource Publishing](../../AppSourcePublishing/) - Code style compliance for marketplace requirements

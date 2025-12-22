@@ -154,3 +154,7 @@ These templates leverage the latest AL features including:
 6. **Review compliance** with SharedGuidelines standards
 
 These templates provide a solid foundation for AL development while ensuring consistency with the established workflow standards and Business Central best practices.
+
+---
+
+[🏠 Home](../../README.md) | [Shared Guidelines](../README.md)

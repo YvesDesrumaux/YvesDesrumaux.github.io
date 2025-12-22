@@ -15,12 +15,12 @@ This directory provides configuration guidelines for:
 
 ## Included Guidelines
 
-### ai-assistant-guidelines.md
+### [ai assistant guidelines](./ai-assistant-guidelines.instructions.md)
 **Purpose**: Guidelines for AI assistants to provide optimal AL development support
 **When to use**: Used by AI assistants (GitHub Copilot, etc.) to understand AL development context
 **Key topics**: AL language patterns, Business Central concepts, development assistance patterns
 
-### core-principles.md
+### [core principles](./core-principles.instructions.md)
 **Purpose**: Fundamental AL development principles and methodologies
 **When to use**: As foundation for all development activities and decision-making
 **Key topics**: Development philosophy, quality principles, architectural guidance
@@ -85,6 +85,4 @@ These guidelines ensure AI assistants provide:
 
 ## Navigation
 
-- **↑ Back to**: [SharedGuidelines Overview](../README.md)
-- **→ Related**: [Standards Guidelines](../Standards/README.md)
-- **🏠 Home**: [Repository Overview](../../README.md)
+[🏠 Home](../../README.md) | [Shared Guidelines](../README.md)

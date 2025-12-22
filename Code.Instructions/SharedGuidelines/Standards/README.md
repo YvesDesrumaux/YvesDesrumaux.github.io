@@ -88,8 +88,6 @@ These standards apply to ALL development workflows:
 - Handle exceptions gracefully without breaking user experience
 - Log errors appropriately for debugging and monitoring
 
-## Navigation
+---
 
-- **↑ Back to**: [SharedGuidelines Overview](../README.md)
-- **→ Related**: [Configuration Guidelines](../Configuration/README.md)
-- **🏠 Home**: [Repository Overview](../../README.md)
+[🏠 Home](../../README.md) | [Shared Guidelines](../README.md)
