@@ -73,6 +73,6 @@ For each finding provide:
 - Do not invent objects that are not in the provided code.
 
 # Code Review files
-- Code review report should be placed in a `.CodeReview` folder at the root of the repository.
-- Make the report in markdown format.
+- Files are placed in a `.CodeReview` folder at the root of the repository.
+- Make files in .md format.
 - Filenaming should be `<Extension name>-CodeReview-<current datetime>.md`

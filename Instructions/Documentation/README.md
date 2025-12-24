@@ -14,8 +14,8 @@ Structure your content in a logical and hierarchical manner. Start with a clear 
 Organizing content into categories or chapters makes it easier for users to quickly navigate and find the information they need.
 
 # Documentation files
-- Make documentation in .md format.
-- Documentation is placed in a `.Documentation` folder at the root of the repository.
+- Files are placed in a `.Documentation` folder at the root of the repository.
+- Make files in .md format.
 
 
 # Write Clear & Concise Content
