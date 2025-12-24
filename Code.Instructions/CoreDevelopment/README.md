@@ -14,17 +14,17 @@ This workflow addresses the following AL development areas:
 
 ## Included Guidelines
 
-###  [al development guide](./al-development-guide.instructions.md)
+### [al development guide](./al-development-guide.instructions.md)
 **Purpose**: Comprehensive AL language guidance covering development standards and patterns
 **When to use**: Starting new AL development, learning AL best practices, implementing standard development patterns
 **Key topics**: AL syntax, object development, extension model, code organization
 
-###  [coding standards](./coding-standards.instructions.md)
+### [coding standards](./coding-standards.instructions.md)
 **Purpose**: Code structure, formatting, and basic coding standards for AL development
 **When to use**: Establishing code formatting standards, ensuring consistent code style, following development conventions
 **Key topics**: Code formatting, indentation, naming patterns, code organization
 
-###  [object patterns](./object-patterns.instructions.md)
+### [object patterns](./object-patterns.instructions.md)
 **Purpose**: Detailed patterns and guidelines for specific AL object types
 **When to use**: Creating tables, pages, codeunits, reports, or other AL objects with proper implementation patterns
 **Key topics**: Table design, page layouts, codeunit structure, report patterns, object relationships
