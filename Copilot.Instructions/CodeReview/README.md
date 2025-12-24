@@ -64,7 +64,7 @@ Perform a thorough code review report of the following AL extension code. Identi
 - If you recommend a refactor, propose incremental steps.
 - Do not invent objects that are not in the provided code.
 
-# REPORT STORAGE
+# CodeReview files
 - The report has to provided in kramdown format.
 - Save the files in a '.CodeReview' Directory at the root of the project.
 - Filenaming should be '<Extension name>-CodeReview-<current datetime>.md'
