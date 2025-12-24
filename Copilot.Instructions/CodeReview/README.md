@@ -21,47 +21,47 @@ Perform a thorough code review report of the following AL extension code. Identi
 - Data sensitivity: <e.g., contains PII, financial data>
 - Coding standards to follow: [Coding Instructions](./Code.Instruction/)
 
-# REVIEW OUTPUT FORMAT (STRICT)
-1) Executive Summary
-   - Overall quality (1–10)
-   - Key risks (top 3)
-   - Quick wins (top 3)
+# Review output format
+## Executive Summary
+- Overall quality (1–10)
+- Key risks (top 3)
+- Quick wins (top 3)
   
-2) Findings (prioritized)
-   For each finding provide:
-   - Severity: [Critical | High | Medium | Low]
-   - Category: [Correctness | Performance | Security | Maintainability | Upgradeability | UX | Testing | Telemetry | AppSource]
-   - Location: <object + procedure + relevant lines, or a quoted snippet>
-   - Problem: concise description
-   - Why it matters: BC/AL-specific reasoning
-   - Recommendation: specific fix
-   - Example fix: AL code snippet (when applicable)
+## Findings (prioritized)
+For each finding provide:
+- Severity: [Critical | High | Medium | Low]
+- Category: [Correctness | Performance | Security | Maintainability | Upgradeability | UX | Testing | Telemetry | AppSource]
+- Location: <object + procedure + relevant lines, or a quoted snippet>
+- Problem: concise description
+- Why it matters: BC/AL-specific reasoning
+- Recommendation: specific fix
+- Example fix: AL code snippet (when applicable)
 
-3) Object-by-object notes
-   - Tables / TableExtensions
-   - Pages / PageExtensions
-   - Codeunits
-   - Reports / ReportExtensions
-   - Queries
-   - PermissionSets
-   - Interfaces / Events / Subscribers
+## Object-by-object notes
+- Tables / TableExtensions
+- Pages / PageExtensions
+- Codeunits
+- Reports / ReportExtensions
+- Queries
+- PermissionSets
+- Interfaces / Events / Subscribers
 
-4) Test strategy
-   - Missing tests and recommended test coverage (Given/When/Then)
-   - Suggested test codeunits and scenarios
+## Test strategy
+- Missing tests and recommended test coverage (Given/When/Then)
+- Suggested test codeunits and scenarios
 
-5) Performance checklist
-   - SQL considerations: SetLoadFields, keys, filters, FindSet usage, CalcFields, FlowFields
-   - Transaction scope / locking: COMMIT usage, ModifyAll, TryFunction, error handling
+## Performance checklist
+- SQL considerations: SetLoadFields, keys, filters, FindSet usage, CalcFields, FlowFields
+- Transaction scope / locking: COMMIT usage, ModifyAll, TryFunction, error handling
 
-6) BC/AL best-practice compliance
-   - Eventing pattern, avoiding base app modifications
-   - Use of labels, captions, translations (XLIFF)
-   - Feature management / setup patterns
+## BC/AL best-practice compliance
+- Eventing pattern, avoiding base app modifications
+- Use of labels, captions, translations (XLIFF)
+- Feature management / setup patterns
 
-7) Questions / Assumptions
-   - List any assumptions you made
-   - Ask only the minimum questions necessary if something is ambiguous
+## Questions / Assumptions
+- List any assumptions you made
+- Ask only the minimum questions necessary if something is ambiguous
 
 # Rules
 - Be concrete; avoid generic advice.
@@ -70,7 +70,7 @@ Perform a thorough code review report of the following AL extension code. Identi
 - If you recommend a refactor, propose incremental steps.
 - Do not invent objects that are not in the provided code.
 
-# CodeReview files
-- The report has to provided in kramdown format.
-- Save the files in a '.CodeReview' Directory at the root of the project.
-- Filenaming should be '<Extension name>-CodeReview-<current datetime>.md'
+# Code Review files
+- The report has to provided in markdown format.
+- Save the files in a '.CodeReview' directory at the root of the project.
+- Filenaming should be '[Extension name]-CodeReview-[current datetime].md'
