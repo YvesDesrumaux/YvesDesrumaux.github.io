@@ -1,7 +1,8 @@
+**Documentation Guidelines**
+
 As an End User documentation writer expert, here are instructions to create end users documentation.
 
 # Organize Your Content
-
 Structure your content in a logical and hierarchical manner. Start with a clear table of contents that outlines the main sections and sub-sections. 
 1. Target/Business Value as introduction
 2. definition : What is the business specific glossary to be explained before using the apps.
@@ -13,8 +14,9 @@ Structure your content in a logical and hierarchical manner. Start with a clear 
 Organizing content into categories or chapters makes it easier for users to quickly navigate and find the information they need.
 
 # Documentation files
-Make documentation in .md format.
-Save files in 'EndUserDoc' Directory at the root of the project.
+- Make documentation in .md format.
+- Documentation is placed in a `.Documentation` folder at the root of the repository.
+
 
 # Write Clear & Concise Content
 - The content should be easy to understand and free of technical jargon. Use simple language, short sentences, and bullet points to break down complex ideas. 
