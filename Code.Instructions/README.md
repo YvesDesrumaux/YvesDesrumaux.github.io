@@ -1,5 +1,7 @@
 # AL/Business Central Development Guidelines
 
+{:toc}
+
 ## Workflow Purpose
 
 Development provides fundamental AL language guidance and object development patterns for Microsoft Dynamics 365 Business Central. This workflow covers :
