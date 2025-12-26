@@ -4,7 +4,7 @@ This document outlines the comprehensive naming conventions for variables, param
 
 **Table of Contents**
 
-{#table-of-contents}
+{:TOC}
 
 ## General Naming Guidelines
 
