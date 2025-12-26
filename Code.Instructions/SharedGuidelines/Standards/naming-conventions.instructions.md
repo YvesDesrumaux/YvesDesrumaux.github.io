@@ -4,6 +4,8 @@ This document outlines the comprehensive naming conventions for variables, param
 
 ## Table of Contents
 
+{:toc}
+
 - [Naming Conventions for AL Development](#naming-conventions-for-al-development)
   - [Table of Contents](#table-of-contents)
   - [General Naming Guidelines](#general-naming-guidelines)
