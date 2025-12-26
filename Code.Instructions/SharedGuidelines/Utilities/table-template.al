@@ -15,7 +15,6 @@ table [ObjectID] "[Prefix] [EntityName]"
         {
             Caption = 'No.';
             Tooltip = 'Specifies the number of the [entity].';
-            DataClassification = CustomerContent;
             NotBlank = true;
 
             trigger OnValidate()
@@ -28,14 +27,12 @@ table [ObjectID] "[Prefix] [EntityName]"
         {
             Caption = 'Description';
             Tooltip = 'Specifies the description of the [entity].';
-            DataClassification = CustomerContent;
             NotBlank = true;
         }
         field(3; "Created Date"; Date)
         {
             Caption = 'Created Date';
             Tooltip = 'Specifies when the [entity] was created.';
-            DataClassification = CustomerContent;
             Editable = false;
         }
         field(4; "Created By"; Code[50])
@@ -50,7 +47,6 @@ table [ObjectID] "[Prefix] [EntityName]"
         {
             Caption = 'Status';
             Tooltip = 'Specifies the status of the [entity].';
-            DataClassification = CustomerContent;
 
             trigger OnValidate()
             begin

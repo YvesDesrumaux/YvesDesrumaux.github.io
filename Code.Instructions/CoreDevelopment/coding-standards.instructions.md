@@ -59,14 +59,14 @@ This document outlines the basic coding standards, patterns, and style guideline
 - Use consistent terminology and phrasing across tooltips to maintain a cohesive user experience
 - Review and update tooltips regularly to ensure they reflect any changes in functionality or user interface
 - Tooltips on fields must start with 'Specifies' to maintain consistency and clarity
+- Tooltips in pages are only relevant when they are different than the field tooltip they are linked to
 
 ## Prefix Guidelines
 
 1. All objects must have a prefix
 2. The prefix is defined in the AppSourceCop.json file
 3. The prefix is always in this format '<Prefix> ' where <Prefix> is the prefix defined in the AppSourceCop.json file
-4. The prefix is always in uppercase
-5. The prefix is always followed by a space
+5. The prefix is always followed by a underscore (_) in Main extension objects and by an equal (=) in Tests extension objects
 6. The prefix is always just once in the object name
 7. The prefix is always in the beginning of the object name
 
@@ -79,11 +79,11 @@ This document outlines the basic coding standards, patterns, and style guideline
 
 ## Text Constants and Localization
 
-- Use text constants or labels for all user-facing strings to support localization
+- Use labels for all user-facing strings to support localization
 - Define text constants at the beginning of the codeunit or page where they are used
 - Use descriptive names for text constants that indicate their purpose
 - When using StrSubstNo, always use a text constant or label for the format string
-- Format text constant names as: ErrorMsg, ConfirmQst, InfoMsg, etc.
+- Format text constant names as: ErrorMsg, ConfirmQst, InfoLbl, etc.
 - Example:
   ```al
   var

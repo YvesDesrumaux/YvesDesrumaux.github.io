@@ -316,6 +316,8 @@ This document outlines the coding standards and best practices for AL code in th
 - Ensure consistency in terminology across captions to maintain a cohesive user experience
 - Review and update captions regularly to reflect any changes in functionality or user interface
 - Use sentence case for captions (only the first letter of the first word capitalized, except for proper nouns)
+- Captions on fields are mandatory when the field name is not meaningful for end users (contains affixes or technical terms)
+- Remove captions on fields when the field name is identical to the caption
 - Captions are mandatory on all enums, actions, and controls to enhance user understanding, usability, and accessibility.
 - Caption are not mandatory on table fields if the field name is already meaningful for end users (and do not contain affixes or technical terms)
 
@@ -324,11 +326,16 @@ This document outlines the coding standards and best practices for AL code in th
 - All Tooltips are in English and must be meaningful for end users
 - All fields should have tooltips to provide context and guidance to users
 - Use the `Tooltip` property in AL to define tooltips for fields, actions, and controls
-- Ensure tooltips are concise and informative, helping users understand the purpose and usage of each field or action
+- Ensure tooltips are concise (less than 200 characters) and informative, helping users understand the purpose and usage of each field or action
 - Avoid overly technical jargon in tooltips; aim for clarity and simplicity
 - Use consistent terminology and phrasing across tooltips to maintain a cohesive user experience
 - Review and update tooltips regularly to ensure they reflect any changes in functionality or user interface
 - Tooltips on fields must start with 'Specifies' and ends with '.' to maintain consistency and clarity
+- Tooltips in pages are only relevant when they are different than the field tooltip they are linked to
+
+## RunTrigger Parameter
+
+Explicitly set the RunTrigger parameter on build-in methods
 
 ## Text Constants and Localization
 

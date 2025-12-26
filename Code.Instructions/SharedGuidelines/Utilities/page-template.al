@@ -8,6 +8,7 @@ page [ObjectID] "[Prefix] [EntityName] Card"
     PageType = Card;
     SourceTable = "[Prefix] [EntityName]";
     UsageCategory = None;
+    ApplicationArea = All;
 
     layout
     {
@@ -18,7 +19,6 @@ page [ObjectID] "[Prefix] [EntityName] Card"
                 Caption = 'General';
                 field("No."; Rec."No.")
                 {
-                    ApplicationArea = All;
                     ShowMandatory = true;
                     Importance = Promoted;
 
@@ -30,13 +30,11 @@ page [ObjectID] "[Prefix] [EntityName] Card"
                 }
                 field(Description; Rec.Description)
                 {
-                    ApplicationArea = All;
                     ShowMandatory = true;
                     Importance = Promoted;
                 }
                 field(Status; Rec.Status)
                 {
-                    ApplicationArea = All;
                     Importance = Promoted;
                     StyleExpr = StatusStyleExpr;
 
@@ -51,12 +49,10 @@ page [ObjectID] "[Prefix] [EntityName] Card"
                 Caption = 'Details';
                 field("Created Date"; Rec."Created Date")
                 {
-                    ApplicationArea = All;
                     Editable = false;
                 }
                 field("Created By"; Rec."Created By")
                 {
-                    ApplicationArea = All;
                     Editable = false;
                 }
                 // Add additional detail fields as needed
@@ -66,7 +62,6 @@ page [ObjectID] "[Prefix] [EntityName] Card"
                 Caption = 'Statistics';
                 field("Related Records Count"; Rec."Related Records Count")
                 {
-                    ApplicationArea = All;
                     Editable = false;
                     DrillDownPageId = "[Related Records Page]";
                 }
@@ -76,17 +71,10 @@ page [ObjectID] "[Prefix] [EntityName] Card"
         {
             part(RelatedRecordsFactBox; "[Prefix] Related Records FactBox")
             {
-                ApplicationArea = All;
                 SubPageLink = "[Key Field]" = field("No.");
             }
-            systempart(Notes; Notes)
-            {
-                ApplicationArea = All;
-            }
-            systempart(Links; Links)
-            {
-                ApplicationArea = All;
-            }
+            systempart(Notes; Notes) {}
+            systempart(Links; Links) { }
         }
     }
 
@@ -151,7 +139,7 @@ page [ObjectID] "[Prefix] [EntityName] Card"
                 Image = List;
                 ApplicationArea = All;
                 RunObject = page "[Related Records Page]";
-                RunPageLink = "[Key Field]" = field("No.");
+                                RunPageLink = "[Key Field]" = field("No.");
             }
             action(History)
             {
@@ -286,7 +274,7 @@ page [ObjectID] "[Prefix] [EntityName] List"
                 Image = New;
                 ApplicationArea = All;
                 RunObject = page "[Prefix] [EntityName] Card";
-                RunPageMode = Create;
+                                RunPageMode = Create;
             }
             action(BulkActivate)
             {

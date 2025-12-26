@@ -183,7 +183,6 @@ table 50100 "ABC Customer Rating"
         field(1; "No."; Code[20])
         {
             Caption = 'No.';
-            DataClassification = CustomerContent;
             NotBlank = true;
 
             trigger OnValidate()
@@ -196,7 +195,6 @@ table 50100 "ABC Customer Rating"
         field(2; "Customer No."; Code[20])
         {
             Caption = 'Customer No.';
-            DataClassification = CustomerContent;
             TableRelation = Customer."No.";
             NotBlank = true;
 
@@ -214,13 +212,11 @@ table 50100 "ABC Customer Rating"
         field(3; "Customer Name"; Text[100])
         {
             Caption = 'Customer Name';
-            DataClassification = CustomerContent;
             Editable = false;
         }
         field(4; "Rating Score"; Integer)
         {
             Caption = 'Rating Score';
-            DataClassification = CustomerContent;
             MinValue = 1;
             MaxValue = 5;
             NotBlank = true;
@@ -234,7 +230,6 @@ table 50100 "ABC Customer Rating"
         field(5; "Rating Date"; Date)
         {
             Caption = 'Rating Date';
-            DataClassification = CustomerContent;
             NotBlank = true;
 
             trigger OnValidate()
@@ -246,7 +241,6 @@ table 50100 "ABC Customer Rating"
         field(6; Comments; Text[250])
         {
             Caption = 'Comments';
-            DataClassification = CustomerContent;
         }
         field(7; "Created By"; Code[50])
         {
@@ -257,7 +251,6 @@ table 50100 "ABC Customer Rating"
         field(8; "Created Date Time"; DateTime)
         {
             Caption = 'Created Date Time';
-            DataClassification = CustomerContent;
             Editable = false;
         }
     }
@@ -358,6 +351,7 @@ page 50100 "ABC Customer Rating Card"
     PageType = Card;
     SourceTable = "ABC Customer Rating";
     UsageCategory = None;
+    ApplicationArea = All;
 
     layout
     {
@@ -368,8 +362,6 @@ page 50100 "ABC Customer Rating Card"
                 Caption = 'General';
                 field("No."; Rec."No.")
                 {
-                    ApplicationArea = All;
-                    ToolTip = 'Specifies the number of the customer rating.';
                     ShowMandatory = true;
                     Importance = Promoted;
 
@@ -381,7 +373,6 @@ page 50100 "ABC Customer Rating Card"
                 }
                 field("Customer No."; Rec."Customer No.")
                 {
-                    ApplicationArea = All;
                     ToolTip = 'Specifies the customer number for this rating.';
                     ShowMandatory = true;
                     Importance = Promoted;
@@ -393,15 +384,11 @@ page 50100 "ABC Customer Rating Card"
                 }
                 field("Customer Name"; Rec."Customer Name")
                 {
-                    ApplicationArea = All;
-                    ToolTip = 'Specifies the name of the customer.';
                     Editable = false;
                     Importance = Promoted;
                 }
                 field("Rating Score"; Rec."Rating Score")
                 {
-                    ApplicationArea = All;
-                    ToolTip = 'Specifies the rating score from 1 (poor) to 5 (excellent).';
                     ShowMandatory = true;
                     StyleExpr = RatingStyleExpr;
                     Importance = Promoted;
@@ -413,8 +400,6 @@ page 50100 "ABC Customer Rating Card"
                 }
                 field("Rating Date"; Rec."Rating Date")
                 {
-                    ApplicationArea = All;
-                    ToolTip = 'Specifies the date when the rating was given.';
                     ShowMandatory = true;
                     Importance = Promoted;
                 }
@@ -424,8 +409,6 @@ page 50100 "ABC Customer Rating Card"
                 Caption = 'Details';
                 field(Comments; Rec.Comments)
                 {
-                    ApplicationArea = All;
-                    ToolTip = 'Specifies additional comments about the rating.';
                     MultiLine = true;
                 }
             }
@@ -434,14 +417,10 @@ page 50100 "ABC Customer Rating Card"
                 Caption = 'Administration';
                 field("Created By"; Rec."Created By")
                 {
-                    ApplicationArea = All;
-                    ToolTip = 'Specifies who created this rating.';
                     Editable = false;
                 }
                 field("Created Date Time"; Rec."Created Date Time")
                 {
-                    ApplicationArea = All;
-                    ToolTip = 'Specifies when this rating was created.';
                     Editable = false;
                 }
             }
@@ -450,17 +429,10 @@ page 50100 "ABC Customer Rating Card"
         {
             part(CustomerDetailsFactBox; "Customer Details FactBox")
             {
-                ApplicationArea = All;
                 SubPageLink = "No." = field("Customer No.");
             }
-            systempart(Notes; Notes)
-            {
-                ApplicationArea = All;
-            }
-            systempart(Links; Links)
-            {
-                ApplicationArea = All;
-            }
+            systempart(Notes; Notes) { }
+            systempart(Links; Links) { }
         }
     }
 
@@ -473,7 +445,6 @@ page 50100 "ABC Customer Rating Card"
                 Caption = 'Submit Rating';
                 ToolTip = 'Submit the rating for processing.';
                 Image = SendTo;
-                ApplicationArea = All;
 
                 trigger OnAction()
                 var
@@ -491,7 +462,6 @@ page 50100 "ABC Customer Rating Card"
                 Caption = 'Copy Rating';
                 ToolTip = 'Create a copy of this rating.';
                 Image = Copy;
-                ApplicationArea = All;
 
                 trigger OnAction()
                 var
@@ -515,7 +485,6 @@ page 50100 "ABC Customer Rating Card"
                 Caption = 'Customer';
                 ToolTip = 'View or edit the customer information.';
                 Image = Customer;
-                ApplicationArea = All;
                 RunObject = page "Customer Card";
                 RunPageLink = "No." = field("Customer No.");
             }
@@ -524,7 +493,6 @@ page 50100 "ABC Customer Rating Card"
                 Caption = 'All Customer Ratings';
                 ToolTip = 'View all ratings for this customer.';
                 Image = List;
-                ApplicationArea = All;
                 RunObject = page "ABC Customer Rating List";
                 RunPageLink = "Customer No." = field("Customer No.");
             }
@@ -536,7 +504,6 @@ page 50100 "ABC Customer Rating Card"
                 Caption = 'Print Rating';
                 ToolTip = 'Print the customer rating document.';
                 Image = Print;
-                ApplicationArea = All;
 
                 trigger OnAction()
                 begin
@@ -598,11 +565,11 @@ table 50101 "ABC Setup"
         {
             Caption = 'Primary Key';
             DataClassification = SystemMetadata;
+            NotBlank = true;
         }
         field(2; "Rating No. Series"; Code[20])
         {
             Caption = 'Rating No. Series';
-            DataClassification = CustomerContent;
             TableRelation = "No. Series";
 
             trigger OnValidate()
@@ -614,17 +581,14 @@ table 50101 "ABC Setup"
         field(3; "Default Rating Category"; Enum "ABC Rating Category")
         {
             Caption = 'Default Rating Category';
-            DataClassification = CustomerContent;
         }
         field(4; "Auto-Process Ratings"; Boolean)
         {
             Caption = 'Auto-Process Ratings';
-            DataClassification = CustomerContent;
         }
         field(5; "Email Notifications"; Boolean)
         {
             Caption = 'Email Notifications';
-            DataClassification = CustomerContent;
         }
     }
 
@@ -671,16 +635,18 @@ end;
 
 1. **Robust error handling** with meaningful messages and recovery guidance
 2. **Comprehensive telemetry** tracking feature usage and performance
-3. **Proper data classification** for all data handling operations
-4. **Security best practices** including input validation and secure communications
-5. **Performance optimization** following AL development best practices
+3. **No redundant application area in table and page objects** for code readability
+4. **Proper data classification** for all data handling operations
+5. **No redundant data classification in table objects** for code readability
+6. **Security best practices** including input validation and secure communications
+7. **Performance optimization** following AL development best practices
 
 ## Localization and Accessibility Standards
 
 ### Multi-language Support Implementation
 ```al
 // Label definitions in .xlf files
-label
+var
     WelcomeMsg: Label 'Welcome to %1. Click here to get started.', Comment = '%1 = App Name';
     ErrorMsg: Label 'An error occurred while processing your request. Please try again.';
 

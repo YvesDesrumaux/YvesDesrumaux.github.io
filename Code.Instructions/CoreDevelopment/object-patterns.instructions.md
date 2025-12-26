@@ -24,12 +24,16 @@ This document outlines specific guidelines for different object types in Busines
 - Field numbers in tables must start with the number defined in app.json
 - New fields must use the first available number in the range defined in app.json
 - Tooltips in fields always start with 'Specifies '
-- Fields on tables must have a Dataclassification property set to `CustomerContent`
+- Tables must have a Dataclassification property set to `CustomerContent`
+- Fields must have a Dataclassification property according to the use of the data field
+- if DataClassification field equal to the Table's DataClassification then removed the property to reduce redundancy
 - Identifiers on fields on tables should not have a prefix
 - Identifiers on fields on tableextensions must have a prefix
 - Use appropriate field types for the data they will contain
 - Implement proper validation for fields
 - Use FlowFields and FlowFilters appropriately
+- Define primary and secondary keys for efficient data access
+- Primary keys having only field must have NotBlank property set to true on the field.
 
 ### Complete Table Creation Example
 
@@ -239,6 +243,7 @@ page 50100 "ABC Customer Rating Card"
     PageType = Card;
     SourceTable = "ABC Customer Rating";
     UsageCategory = None;
+    ApplicationArea = All;
 
     layout
     {
@@ -249,7 +254,6 @@ page 50100 "ABC Customer Rating Card"
                 Caption = 'General';
                 field("Customer No."; Rec."Customer No.")
                 {
-                    ApplicationArea = All;
                     ShowMandatory = true;
 
                     trigger OnValidate()
@@ -259,22 +263,18 @@ page 50100 "ABC Customer Rating Card"
                 }
                 field("Customer Name"; Rec."Customer Name")
                 {
-                    ApplicationArea = All;
                     Editable = false;
                 }
                 field("Rating Date"; Rec."Rating Date")
                 {
-                    ApplicationArea = All;
                     ShowMandatory = true;
                 }
                 field("Rating Score"; Rec."Rating Score")
                 {
-                    ApplicationArea = All;
                     ShowMandatory = true;
                 }
                 field("Rating Category"; Rec."Rating Category")
                 {
-                    ApplicationArea = All;
                     ShowMandatory = true;
                 }
             }
@@ -283,7 +283,6 @@ page 50100 "ABC Customer Rating Card"
                 Caption = 'Details';
                 field(Comments; Rec.Comments)
                 {
-                    ApplicationArea = All;
                     MultiLine = true;
                 }
             }
@@ -292,7 +291,6 @@ page 50100 "ABC Customer Rating Card"
                 Caption = 'Statistics';
                 field("Average Rating"; Rec."Average Rating")
                 {
-                    ApplicationArea = All;
                     Editable = false;
                     Style = Strong;
                 }
@@ -397,36 +395,19 @@ page 50101 "ABC Customer Rating List"
             repeater(Control1)
             {
                 ShowCaption = false;
-                field("Customer No."; Rec."Customer No.")
-                {
-                    ApplicationArea = All;
-                }
-                field("Customer Name"; Rec."Customer Name")
-                {
-                    ApplicationArea = All;
-                }
-                field("Rating Date"; Rec."Rating Date")
-                {
-                    ApplicationArea = All;
-                }
+                field("Customer No."; Rec."Customer No.") { }
+                field("Customer Name"; Rec."Customer Name") { }
+                field("Rating Date"; Rec."Rating Date") { }
                 field("Rating Score"; Rec."Rating Score")
                 {
-                    ApplicationArea = All;
                     StyleExpr = RatingScoreStyle;
                 }
-                field("Rating Category"; Rec."Rating Category")
-                {
-                    ApplicationArea = All;
-                }
+                field("Rating Category"; Rec."Rating Category") { }
                 field("Average Rating"; Rec."Average Rating")
                 {
-                    ApplicationArea = All;
                     Style = Strong;
                 }
-                field(Comments; Rec.Comments)
-                {
-                    ApplicationArea = All;
-                }
+                field(Comments; Rec.Comments) { }
             }
         }
         area(FactBoxes)
