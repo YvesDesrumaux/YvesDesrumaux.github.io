@@ -1,8 +1,7 @@
 title: Bricklead AL Guidelines
 description: Bricklead AL Guidelines
-
+theme: minima
 markdown: kramdown
-
 kramdown:
-  toc_levels: 2..6     # TOC à partir des h2 (jusqu'à h6)
+  toc_levels: 1..6
   input: GFM           # compatibilité GitHub Flavored Markdown
