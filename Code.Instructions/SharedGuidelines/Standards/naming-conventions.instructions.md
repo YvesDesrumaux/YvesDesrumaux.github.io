@@ -2,9 +2,8 @@
 
 This document outlines the comprehensive naming conventions for variables, parameters, and objects in Business Central AL code to ensure consistency and maintainability across all development workflows.
 
-## Table of Contents
-
-{:toc}
+**Table of Contents**
+{#table-of-contents}
 
 ## General Naming Guidelines
 
