@@ -63,12 +63,11 @@ This document outlines the basic coding standards, patterns, and style guideline
 
 ## Prefix Guidelines
 
-1. All objects must have a prefix
-2. The prefix is defined in the AppSourceCop.json file
-3. The prefix is always in this format '<Prefix> ' where <Prefix> is the prefix defined in the AppSourceCop.json file
-5. The prefix is always followed by a underscore (_) in Main extension objects and by an equal (=) in Tests extension objects
-6. The prefix is always just once in the object name
-7. The prefix is always in the beginning of the object name
+- All objects must have a prefix
+- The prefix is always in this format '<Prefix><Separator>' where <Prefix> is the prefix defined in the AppSourceCop.json file. The separator is a single character (e.g., underscore '_' for Main extension, or equal '=' for test extensions)
+- The prefix is generally 6 characters and always 3 first characters in lowercase and the next 3 characters in uppercase
+- The prefix is always just once in the object name
+- The prefix is always in the beginning of the object name
 
 ## Numbering
 
