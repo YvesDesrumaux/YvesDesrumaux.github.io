@@ -6,30 +6,6 @@ This document outlines the comprehensive naming conventions for variables, param
 
 {:toc}
 
-- [Naming Conventions for AL Development](#naming-conventions-for-al-development)
-  - [Table of Contents](#table-of-contents)
-  - [General Naming Guidelines](#general-naming-guidelines)
-  - [Variables and Parameters](#variables-and-parameters)
-    - [Record Variables](#record-variables)
-    - [Page Variables](#page-variables)
-    - [Multiple Variables of Same Type](#multiple-variables-of-same-type)
-    - [Parameter Declaration](#parameter-declaration)
-    - [Variable Ordering](#variable-ordering)
-  - [Object Naming](#object-naming)
-    - [Tables and Fields](#tables-and-fields)
-    - [Pages](#pages)
-    - [Codeunits](#codeunits)
-    - [Reports](#reports)
-  - [Prefix Guidelines](#prefix-guidelines)
-  - [Search Keywords](#search-keywords)
-  - [Object File Naming Rules](#object-file-naming-rules)
-    - [AL Language Keywords](#al-language-keywords)
-    - [Business Central Concepts](#business-central-concepts)
-    - [Development Patterns](#development-patterns)
-  - [Cross-References](#cross-references)
-    - [Related SharedGuidelines](#related-sharedguidelines)
-    - [Workflow Applications](#workflow-applications)
-
 ## General Naming Guidelines
 
 - Use PascalCase for all identifiers (objects, variables, parameters, methods)
@@ -108,6 +84,7 @@ JobPage: Page Job;
 ### Multiple Variables of Same Type
 
 - If there is a need for multiple variables or parameters of the same type, the name must be suffixed with a meaningful name
+- the variables are separated by colon and a space before the type declaration
 
 **Example:**
 ```al

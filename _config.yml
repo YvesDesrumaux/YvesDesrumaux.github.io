@@ -1,3 +1,5 @@
 title: Bricklead AL Guidelines
 description: Bricklead AL Guidelines
 markdown: kramdown
+kramdown:
+  toc_levels: 2..6
